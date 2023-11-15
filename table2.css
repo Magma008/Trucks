@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+
+/* ---------------------------------------- */
+/* Content Section */
+.content {
+    background: #1E3A55;
+}
+
+.contentTitle {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+/* --------------------------------- */
+/* Text Section */
+.text {
+    background: #1E3A55;
+    padding: 20px 0;
+    padding: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.786px;
+}
+
+.textTitle {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.redDot {
+    color: #E04547;
+    font-size: 25px;
+}
+
+.wText {
+    font-size: 16px;
+    color: #fff;
+}
+
+.Text {
+    font-weight: 700;
+}
+
+.smText {
+    font-size: 14px;
+}
+
+.redText {
+    color: #F05157;
+}
+
+/* -------------------------------------------------- */
+/* Table Content Section */
+.tableContent {
+    background: #1E3A55;
+}
+
+.tableCell {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.redColor {
+    color: #F05157;
+}
+
+.graphText {
+    color: #FFF;
+    font-family: 'Montserrat', "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text600 {
+    font-weight: 600;
+}
+
+.text700 {
+    font-weight: 700;
+}
+
+.tableTitle2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.table2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ----------------------------------------------------------- */
+/* End Section */
+
+.end {
+    color: #fff;
+}
+
+.endTitle {
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contact {
+    background: #1E3A55;
+}
+
+.logo svg {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background: #E04547;
+    border: 3px solid #E04547;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.endText {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* --------------------------- */
+
+@media screen and (max-width: 390px) {
+    .endTitle {
+        font-size: 30px;
+    }
+
+    .endText {
+        font-size: 18px;
+    }
+
+    .contentTitle {
+        font-size: 35px;
+    }
+
+    .textTitle {
+        font-size: 30px;
+    }
+
+    .tableTitle2 {
+        font-size: 30px;
+    }
+}

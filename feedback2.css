@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+
+/* ------------------------------------------ */
+/* Main Section */
+.main {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+/* ------------------------------------------- */
+/* Info Section */
+
+.info {
+    background: #1A3852;
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+.infoTitle {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gap-8 {
+    gap: 50px;
+}
+
+.ulText {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ---------------------------------- */
+/* Inputs Section */
+.inputs {
+    padding: 20px;
+    color: #203341;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.inputTitle {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1.535px solid #000;
+}
+
+.inputN {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1.535px solid #f9f9fb;
+    background: #f9f9fb;
+    transition: all .3s linear;
+    outline: none;
+}
+
+.inputN:focus {
+    border: 1.535px solid #000;
+}
+
+.button {
+    border-radius: 5px;
+    background: #1A3852;
+    box-shadow: 0px 0px 5px 0.5px #1A3852;
+    padding: 10px 80px;
+    color: #FFF;
+    font-size: 21.489px;
+    border: 2px solid #1A3852;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+
+.input::placeholder,
+.inputN::placeholder,
+.feedback::placeholder {
+    color: #203341;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button:hover {
+    background: transparent;
+    color: #1A3852;
+}
+
+.feedback {
+    border-radius: 5px;
+    background: #F9F9FB;
+    border: 2px solid #f9f9fb;
+    padding: 20px;
+    transition: all .3s linear;
+}
+
+.feedback:focus {
+    border: 2px solid black;
+}
+
+@media screen and (max-width:1033px) {
+    .inputs,
+    .info {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:973px) {
+    .main {
+        display: grid;
+        grid-template-columns: 4fr;
+    }
+
+}
+
+@media screen and (max-width: 699px) {
+    .infoTitle,
+    .inputTitle {
+        font-size: 30px;
+    }
+
+    .ulText {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .details {
+        display: grid;
+        grid-template-columns: 4fr;
+    }
+
+    .form {
+        margin-bottom: 40px;
+    }
+}
+

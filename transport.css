@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+
+/* ------------------------------------------ */
+/* Carousel Section */
+
+.cBody {
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cCarousel {
+    background: #1E3A55;
+    width: 600px;
+    /* min-height: 700px; */
+    padding: 10px;
+}
+
+.cText {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cImage {
+    aspect-ratio: 5/5;
+}
+
+.icon {
+    fill: darkred;
+}
+
+/* --------------------------- */
+/* End Section */
+
+.end {
+    color: #fff;
+}
+
+.endTitle {
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contact {
+    background: #1E3A55;
+}
+
+.logo svg {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background: #E04547;
+    border: 3px solid #E04547;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.endText {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 780px) {
+    .cText {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cCarousel {
+        width: 450px;
+        padding: 5px;
+    }
+
+
+    .cText {
+        font-size: 40px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .endTitle {
+        font-size: 30px;
+    }
+
+    .endText {
+        font-size: 18px;
+    }
+
+    .cBody {
+        font-size: 30px;
+    }
+
+    .cImage {
+        aspect-ratio: 4/4;
+    }
+
+    .cText {
+        font-size: 30px;
+    }
+
+    .cCarousel {
+        min-height: 410px;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+}

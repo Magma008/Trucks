@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+/* Header Section */
+
+.mini_detail {
+    font-size: 14.006px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: black;
+}
+
+.link-font {
+    color: #25455A !important;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav-bar {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.width {
+    width: 100% !important;
+}
+
+.dropDown {
+    background: #1A2F45;
+    border-radius: 0px;
+}
+
+.whiteFont {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+
+.red {
+    color: #cc4444;
+}
+
+@media screen and (min-width: 390px) {
+    .whiteFont {
+        font-size: 14.794px;
+    }
+
+}

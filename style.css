@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+/* Header Section */
+
+.mini_detail {
+    font-size: 14.006px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: black;
+}
+
+.link-font {
+    color: #25455A !important;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav-bar {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.width {
+    width: 100% !important;
+}
+
+.dropDown {
+    background: #1A2F45;
+    border-radius: 0px;
+}
+
+.whiteFont {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+
+.red {
+    color: #cc4444;
+}
+
+.ul {
+    line-height: normal;
+}
+
+@media screen and (min-width: 390px) {
+    .whiteFont {
+        font-size: 14.794px;
+    }
+
+    .ul {
+        line-height: 35px;
+    }
+}
+/* ----------------------------------------- */
+/* Body Section */
+.body {
+    background: url("Images/main-page/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.content {
+    padding: 100px 0;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.big_text {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 21, 6px;
+}
+
+.info-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.button {
+    background: #1A3852;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 4px 35px;
+    border: 1px solid #1A3852;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+
+/* -------------------------------------------------------- */
+/* Cards Section */
+
+.title {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #ECCA34;
+}
+
+.title2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cards_title {
+    text-align: center;
+}
+
+.cardTitle {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cardBox {
+    border-left: 5px solid #ECCA34;
+    padding-left: 15px;
+    background: #EFF8F6;
+}
+
+.cardText {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cardText2 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button2 {
+    background: #1A3852;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 4px 35px;
+    border: 1px solid #1A3852;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    font-size: 18px;
+    margin-top: auto;
+}
+
+.csCard {
+    height: 100%;
+}
+
+.cButton {
+    margin-top: auto;
+}
+
+/* ------------------------------------------------------ */
+/* About Company Section */
+.company {
+    color: #333;
+}
+
+.company_title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.companyText {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.companyText2 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.companyText2Title {
+    font-size: 21px;
+}
+
+/* ------------------------------ */
+/* Numbers Section */
+
+.numbers {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/main-page/body_bg.jpg");
+    min-height: 21vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.numberText {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------ */
+/* Countries Section */
+.countries {
+    text-align: center;
+    color: #000;
+}
+
+.countriesTitle {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.titleText {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.flags {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url("Images/main-page/map.jpg");
+    /* background: aquamarine; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countryImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-right: 2px solid #25455A;
+}
+
+.flagsGap {
+    gap: 20px;
+}
+
+.flagText {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* --------------------------------------------------------- */
+/* Info Section */
+.infoTitle {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.infoText {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+
+.infoTitle2 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.olText {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.5px;
+    letter-spacing: 1.2px;
+}
+
+/* --------------------------------- */
+/* Reviews Section */
+.reviews {
+    color: #33333D;
+}
+
+.reviewTitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.reviewCardTitle {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+.reviewCardText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviewBox {
+    border-top: 3px solid #33333D;
+    padding-top: 10px;
+}
+
+.customCard {
+    min-height: 40vh;
+}
+
+.endButton {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #1A3852;
+    padding: 4px 45px;
+    border: 1px solid #1A3852;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+
+/* ------------------------------------------------------------ */
+
+/* Footer Section */
+.footer {
+    background: #EBEBEB;
+}
+
+.footerBar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.firstFooter {
+    padding: 30px 0;
+    padding-top: 60px;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    align-items: center;
+}
+
+.footerTeext {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sponsorTitle {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .footerBar {
+        flex-direction: row;
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .whiteFont {
+        font-size: 14.794px;
+    }
+
+    .big_text {
+        line-height: 43.2px;
+        font-size: 40px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 4px 45px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .title2 {
+        font-size: 24px;
+    }
+
+    .companyText {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .companyText2 {
+        font-size: 22px;
+        line-height: 30.333px;
+    }
+
+    .companyText2Title {
+        font-size: 24px;
+    }
+
+    .flagsGap {
+        gap: 60px;
+    }
+
+    .flagText {
+        font-size: 20px;
+    }
+
+    .countriesTitle {
+        font-size: 30px;
+    }
+
+    .infoTitle {
+        color: #000;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .infoText {
+        font-size: 24px;
+    }
+
+    .infoTitle2 {
+        font-size: 30px;
+    }
+
+    .olText {
+        font-size: 24px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .endButton {
+        font-size: 30px;
+    }
+}

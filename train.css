@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+
+/* ----------------------------------------- */
+/* Content Section */
+.content {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("Images/Order/train_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.contentTitle {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+/* --------------------------------- */
+/* Order Section */
+.orderText {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.974px;
+}
+/* -------------------------------- */
+/* End Section */
+
+.end {
+    color: #fff;
+}
+
+.endTitle {
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contact {
+    background: #1E3A55;
+}
+
+.logo svg {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background: #E04547;
+    border: 3px solid #E04547;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.endText {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* ----------------------------------- */
+@media screen and (max-width: 992px) {
+    .orderText {
+        font-size: 30px;
+        line-height: 30.974px;
+    }
+    .contentTitle {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .contentTitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .endTitle {
+        font-size: 30px;
+    }
+
+    .endText {
+        font-size: 18px;
+    }
+
+    .orderText {
+        font-size: 25px;
+    }
+    .content {
+        min-height: 60vh;
+    }
+}

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins';
+}
+
+/* ------------------------------------------ */
+/* Export Document Section */
+.exportDoc {
+    background: #1E3A55;
+}
+
+.texts {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.016px;
+    text-transform: uppercase;
+}
+
+.docText {
+    font-size: 14px;
+}
+
+/* ---------------------------------------- */
+/* End Section */
+
+.end {
+    color: #fff;
+}
+
+.endTitle {
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contact {
+    background: #1E3A55;
+}
+
+.logo svg {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background: #E04547;
+    border: 3px solid #E04547;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.endText {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 390px) {
+    .endTitle {
+        font-size: 30px;
+    }
+
+    .endText {
+        font-size: 18px;
+    }
+}

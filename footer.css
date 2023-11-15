@@ -1,0 +1,53 @@
+/* Footer Section */
+.footer {
+    background: #1E3A55;
+}
+
+.footerBar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.firstFooter {
+    padding: 30px 0;
+    padding-top: 60px;
+}
+.navLink {
+    color: white !important;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    align-items: center;
+}
+
+.footerText {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sponsorTitle {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hr {
+    color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+    .footerBar {
+        flex-direction: row;
+        gap: 25px;
+    }
+}
