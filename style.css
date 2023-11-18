@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Poppins';
 }
+/* ------------------------------------------- */
 /* Header Section */
-
 .mini_detail {
     font-size: 14.006px;
     font-weight: 400;
@@ -52,15 +52,7 @@
     line-height: normal;
 }
 
-@media screen and (min-width: 390px) {
-    .whiteFont {
-        font-size: 14.794px;
-    }
 
-    .ul {
-        line-height: 35px;
-    }
-}
 /* ----------------------------------------- */
 /* Body Section */
 .body {
@@ -461,5 +453,13 @@
 
     .endButton {
         font-size: 30px;
+    }
+
+    .whiteFont {
+        font-size: 14.794px;
+    }
+
+    .ul {
+        line-height: 35px;
     }
 }
